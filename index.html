@@ -71,6 +71,84 @@
       <div class="outer">
         <section id="main">
   
+    <article id="post-wangdiantongerp" class="h-entry article article-type-post" itemprop="blogPost" itemscope itemtype="https://schema.org/BlogPosting">
+  <div class="article-meta">
+    <a href="/2025/06/27/wangdiantongerp/" class="article-date">
+  <time class="dt-published" datetime="2025-06-27T03:43:33.000Z" itemprop="datePublished">2025-06-27</time>
+</a>
+    
+  </div>
+  <div class="article-inner">
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="p-name article-title" href="/2025/06/27/wangdiantongerp/">wangdiantongerp</a>
+    </h1>
+  
+
+      </header>
+    
+    <div class="e-content article-entry" itemprop="articleBody">
+      
+        <p>[toc]</p>
+<h2 id="搜素查单标配："><a href="#搜素查单标配：" class="headerlink" title="搜素查单标配："></a>搜素查单标配：</h2><p>审核时间确保状态是已经审核了<br>品名包含腾讯：只针对机器<br>递交时间按照旧→新 方便录入订单和物流单号<br><img src="/image.png" alt="erp搜索标配"></p>
+
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="http://example.com/2025/06/27/wangdiantongerp/" data-id="cmce9u7ym0000pwu27iac72o4" data-title="wangdiantongerp" class="article-share-link"><span class="fa fa-share">Share</span></a>
+      
+      
+      
+    </footer>
+  </div>
+  
+</article>
+
+
+
+  
+    <article id="post-汇报模板-Friday" class="h-entry article article-type-post" itemprop="blogPost" itemscope itemtype="https://schema.org/BlogPosting">
+  <div class="article-meta">
+    <a href="/2025/06/27/%E6%B1%87%E6%8A%A5%E6%A8%A1%E6%9D%BF-Friday/" class="article-date">
+  <time class="dt-published" datetime="2025-06-27T03:39:05.000Z" itemprop="datePublished">2025-06-27</time>
+</a>
+    
+  </div>
+  <div class="article-inner">
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="p-name article-title" href="/2025/06/27/%E6%B1%87%E6%8A%A5%E6%A8%A1%E6%9D%BF-Friday/">汇报模板-Friday</a>
+    </h1>
+  
+
+      </header>
+    
+    <div class="e-content article-entry" itemprop="articleBody">
+      
+        
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="http://example.com/2025/06/27/%E6%B1%87%E6%8A%A5%E6%A8%A1%E6%9D%BF-Friday/" data-id="cmce9u7yn0001pwu2f1v9ej1a" data-title="汇报模板-Friday" class="article-share-link"><span class="fa fa-share">Share</span></a>
+      
+      
+      
+    </footer>
+  </div>
+  
+</article>
+
+
+
+  
     <article id="post-wps-work-blog" class="h-entry article article-type-post" itemprop="blogPost" itemscope itemtype="https://schema.org/BlogPosting">
   <div class="article-meta">
     <a href="/2025/06/27/wps-work-blog/" class="article-date">
@@ -94,7 +172,9 @@
     <div class="e-content article-entry" itemprop="articleBody">
       
         <p>用来存储办公过程中用到的excel公式</p>
-<h2 id="统一格式的"><a href="#统一格式的" class="headerlink" title="统一格式的"></a>统一格式的</h2>
+<h2 id="统一格式的"><a href="#统一格式的" class="headerlink" title="统一格式的"></a>统一格式的</h2><h3 id="prompt："><a href="#prompt：" class="headerlink" title="prompt："></a>prompt：</h3><p>软件：excel 365</p>
+<p>要求实现但凡字符中出现中文，那么就把字体改成 微软雅黑 10号 常规字体，<br>再不出现中文的前提下，如果出现了英文字符或者数字，那么就把字体改成 consola 10号 常规字体。<br>最后要求，命令每次就退出或者保存自动执行。</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br></pre></td><td class="code"><pre><span class="line">&#x27;=====ThisWorkbook 模块=====</span><br><span class="line">Private Sub Workbook_BeforeSave(ByVal SaveAsUI As Boolean, Cancel As Boolean)</span><br><span class="line">    Application.ScreenUpdating = False</span><br><span class="line">    Application.Calculation = xlCalculationManual</span><br><span class="line">    </span><br><span class="line">    Dim ws As Worksheet</span><br><span class="line">    For Each ws In Me.Worksheets</span><br><span class="line">        FormatSheet ws          &#x27;调用下面的公共过程</span><br><span class="line">    Next ws</span><br><span class="line">    </span><br><span class="line">    Application.Calculation = xlCalculationAutomatic</span><br><span class="line">    Application.ScreenUpdating = True</span><br><span class="line">End Sub</span><br></pre></td></tr></table></figure>
       
     </div>
     <footer class="article-footer">
@@ -190,6 +270,14 @@
     <h3 class="widget-title">Recent Posts</h3>
     <div class="widget">
       <ul>
+        
+          <li>
+            <a href="/2025/06/27/wangdiantongerp/">wangdiantongerp</a>
+          </li>
+        
+          <li>
+            <a href="/2025/06/27/%E6%B1%87%E6%8A%A5%E6%A8%A1%E6%9D%BF-Friday/">汇报模板-Friday</a>
+          </li>
         
           <li>
             <a href="/2025/06/27/wps-work-blog/">wps-work-blog</a>
